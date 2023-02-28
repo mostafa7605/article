@@ -1,0 +1,36 @@
+.page-number {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+}
+.page-link:first-child{
+    font-size: 25px;
+}
+.page-link {
+    color: #000 !important;
+    border: 0 !important;
+    margin: 0 20px;
+    font-size: 15px !important;
+    background-color: transparent !important;
+}
+
+.page-item.active .page-link {
+    background-color: #F9C100 !important;
+    color: #000 !important;
+
+}
+
+.page-link:hover {
+    color: #000 !important;
+    background-color: #F9C100 !important;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.pagination .disabled .page-link{
+    color: #AAAAAA !important;
+    background: transparent !important;
+}
